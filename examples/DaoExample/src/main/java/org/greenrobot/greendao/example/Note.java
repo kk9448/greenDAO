@@ -35,13 +35,15 @@ public class Note {
     }
 
     @Generated(hash = 1686394253)
-    public Note(Long id, @NotNull String text, String comment, java.util.Date date, NoteType type) {
+    public Note(Long id, @NotNull String text, String comment, java.util.Date date,
+            NoteType type) {
         this.id = id;
         this.text = text;
         this.comment = comment;
         this.date = date;
         this.type = type;
     }
+    
 
     public Long getId() {
         return id;
